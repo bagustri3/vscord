@@ -4,8 +4,8 @@ import { WorkspaceExtensionConfiguration } from '../config';
 export const getApplicationId = (config: WorkspaceExtensionConfiguration) => {
 	const applicationIds = new Map();
 
-	applicationIds.set('Code', '782685898163617802');
-	applicationIds.set('Visual Studio Code', '810516608442695700');
+	applicationIds.set('Bagus lagi ngoding!', '782685898163617802');
+	applicationIds.set('AFAANTUH', '810516608442695700');
 
 	const match = /(Code|Visual Studio Code)/i.exec(config[CONFIG_KEYS.AppName]);
 
